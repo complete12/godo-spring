@@ -1,4 +1,4 @@
-package com.godo.spring.toyproject;
+package com.godo.spring.toyproject.controller;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -7,8 +7,10 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.godo.spring.toyproject.controller.HelloRestController;
+
 @SpringBootTest
-class ToyprojectApplicationTests {
+class HelloRestControllerTests {
 	static HelloRestController a;
 	@BeforeAll
 	static void printout() {
